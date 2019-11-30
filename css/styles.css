@@ -332,7 +332,8 @@ header h2 {
   font-weight: 400;
   font-size: 1.8rem;
   margin: 0;
-  display: block; }
+  display: block;
+  color: #075282; }
 
 /* navigation */
 nav {
@@ -393,7 +394,8 @@ div.fruitGallery figure img {
 
 figcaption {
   text-align: center;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: #075282; }
 
 .clearfix:after {
   content: "";
