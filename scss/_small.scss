@@ -14,28 +14,31 @@ body {
 /* header */
 
 header {
-    padding: 1rem $gutter;
-    color: black;
+    padding: .2rem 2%;
+    
 }
 
 
 header h1 {
-    font-size: 2.5rem;
+    color: $primaryColor;
     font-weight: $heavyWeight;
-    margin: 25px 0px 0px 0px;
+    font-size: 3rem;
+    margin: 10px 0px 0px 0px;
 }
 
 header h2 {
     font-weight: $regularWeight;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
     margin: 0;
-    display: none;
+    display: block;
+  
 }
 
 /* navigation */
 
 
 nav {
+    background-color: $subColor;
     margin-bottom: 0px;   
 }
 
@@ -52,7 +55,7 @@ nav li {
 }
 
 nav li.active { 
-    background-color: white;
+    background-color: black;
     
 }
 
@@ -96,6 +99,7 @@ main h1 {
 
 
 footer {
+    background-color: $subColor;
     text-align: center;
     padding: 1rem $gutter; 
     color: white;
