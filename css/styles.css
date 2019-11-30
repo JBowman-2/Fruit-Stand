@@ -330,7 +330,7 @@ header h1 {
 
 header h2 {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin: 0;
   display: block;
   color: #075282; }
@@ -355,7 +355,7 @@ nav li.active {
   background-color: #8fd0f9; }
 
 nav a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: block;
   padding: .8rem 0;
   color: white;
@@ -409,6 +409,9 @@ footer {
   color: white; }
 
 @media only screen and (min-width: 560px) {
+  header h2 {
+    font-size: 1.8rem; }
+
   nav ul {
     padding-left: 2%; }
 
@@ -416,7 +419,8 @@ footer {
     width: auto; }
 
   nav a {
-    padding: .8rem 1rem; }
+    padding: .8rem 1rem;
+    font-size: 1.5rem; }
 
   div.fruitGallery {
     align-content: space-between;
