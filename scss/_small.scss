@@ -38,7 +38,7 @@ header h2 {
 
 
 nav {
-    background-color: $subColor;
+    background-color: $menuColor;
     margin-bottom: 0px;   
 }
 
@@ -51,11 +51,12 @@ nav li {
     width: 25%;
     list-style-type: none;
     text-align: center;
+    background-color: lighten($menuColor, 20%);
     
 }
 
 nav li.active { 
-    background-color: black;
+    background-color: lighten($menuColor, 40%);
     
 }
 
@@ -74,8 +75,8 @@ nav a.active {
 }
 
 nav a:hover {
-    background-color: white;
-    color: #002F6B;
+    background-color: darken($menuColor, 10%);
+
 }
 
 /* main */

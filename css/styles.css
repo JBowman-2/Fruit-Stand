@@ -336,7 +336,7 @@ header h2 {
 
 /* navigation */
 nav {
-  background-color: #1485CC;
+  background-color: #0971B3;
   margin-bottom: 0px; }
 
 nav ul {
@@ -347,10 +347,11 @@ nav li {
   float: left;
   width: 25%;
   list-style-type: none;
-  text-align: center; }
+  text-align: center;
+  background-color: #2ea7f4; }
 
 nav li.active {
-  background-color: black; }
+  background-color: #8fd0f9; }
 
 nav a {
   font-size: 1.5rem;
@@ -365,8 +366,7 @@ nav a.active {
   color: #FF0000; }
 
 nav a:hover {
-  background-color: white;
-  color: #002F6B; }
+  background-color: #075282; }
 
 /* main */
 main {
