@@ -349,7 +349,8 @@ nav li {
   width: 25%;
   list-style-type: none;
   text-align: center;
-  background-color: #2ea7f4; }
+  background-color: #2ea7f4;
+  border-left: 2px solid #0971B3; }
 
 nav li.active {
   background-color: #8fd0f9; }

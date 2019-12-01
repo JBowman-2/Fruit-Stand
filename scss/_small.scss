@@ -53,6 +53,7 @@ nav li {
     list-style-type: none;
     text-align: center;
     background-color: lighten($subColor, 20%);
+    border-left: 2px solid $subColor;
     
 }
 
